@@ -60,7 +60,7 @@ export default async function AccountPage() {
         ) : (
           <a
             href="/signup?step=2"
-            className="inline-block rounded-md bg-blue-600 px-6 py-2 font-semibold text-white hover:bg-blue-700"
+            className="inline-block rounded-md bg-black border border-amber-500 px-6 py-2 font-semibold text-amber-400 hover:bg-neutral-800"
           >
             Subscribe →
           </a>

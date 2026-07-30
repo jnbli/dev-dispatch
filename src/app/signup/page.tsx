@@ -3,7 +3,7 @@ import { auth0 } from "@/lib/auth0";
 import { getUser } from "@/lib/auth0-management";
 import { PurchaseButton } from "@/components/PurchaseButton";
 
-const STEPS = ["Create an account", "Select a plan", "Start using Dev Dispatch!"];
+const STEPS = ["Create an account", "Select a plan", "Start using Anvil Scout!"];
 
 function StepProgress({ current }: { current: number }) {
   return (
@@ -17,7 +17,7 @@ function StepProgress({ current }: { current: number }) {
             <div className="flex flex-col items-center gap-2">
               <div
                 className={`h-8 w-8 rounded-full flex items-center justify-center text-sm font-semibold text-white ${
-                  active || done ? "bg-blue-600" : "bg-neutral-400"
+                  active || done ? "bg-black border border-amber-500" : "bg-neutral-400"
                 }`}
               >
                 {stepNumber}
@@ -57,10 +57,10 @@ export default async function SignupPage({
     <main className="max-w-2xl mx-auto px-6 py-16">
       <StepProgress current={step} />
 
-      <div className="rounded-xl border-2 border-blue-500 p-8">
+      <div className="rounded-xl border-2 border-amber-500 p-8">
         <h1 className="text-center text-2xl font-extrabold mb-8">
-          <span className="text-neutral-700 dark:text-neutral-300">Dev</span>
-          <span className="text-blue-600">Dispatch</span>
+          <span className="text-neutral-900 dark:text-neutral-100">Anvil</span>
+          <span className="text-amber-500">Scout</span>
         </h1>
 
         {step === 1 && (
@@ -70,7 +70,7 @@ export default async function SignupPage({
             </p>
             <a
               href={`/auth/login?screen_hint=signup&returnTo=${encodeURIComponent("/signup?step=2")}`}
-              className="inline-block w-full rounded-md bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-700"
+              className="inline-block w-full rounded-md bg-black border border-amber-500 px-5 py-3 font-semibold text-amber-400 hover:bg-neutral-800"
             >
               SIGN UP
             </a>
@@ -102,9 +102,9 @@ export default async function SignupPage({
             </p>
             <Link
               href="/jobs"
-              className="inline-block w-full rounded-md bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-700"
+              className="inline-block w-full rounded-md bg-black border border-amber-500 px-5 py-3 font-semibold text-amber-400 hover:bg-neutral-800"
             >
-              Start using Dev Dispatch →
+              Start using Anvil Scout →
             </Link>
           </div>
         )}

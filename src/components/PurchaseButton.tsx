@@ -25,7 +25,7 @@ export function PurchaseButton() {
       <button
         onClick={handleClick}
         disabled={loading}
-        className="w-full rounded-md bg-orange-500 px-5 py-3 font-semibold text-white hover:bg-orange-600 disabled:opacity-60"
+        className="w-full rounded-md bg-black border border-amber-500 px-5 py-3 font-semibold text-amber-400 hover:bg-neutral-800 disabled:opacity-60"
       >
         {loading ? "Redirecting to checkout…" : "Purchase →"}
       </button>

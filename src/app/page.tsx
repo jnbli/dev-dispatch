@@ -35,7 +35,7 @@ export default async function Home() {
       <section className="grid md:grid-cols-2 gap-10 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">
-            The only <span className="text-blue-600">realtime</span> job board for remote,
+            The only <span className="text-amber-500">realtime</span> job board for remote,
             U.S. software engineering roles
           </h1>
           <p className="mt-4 text-neutral-600 dark:text-neutral-400">
@@ -43,7 +43,7 @@ export default async function Home() {
           </p>
           <Link
             href={session ? "/jobs" : "/signup"}
-            className="mt-6 inline-block rounded-md bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700"
+            className="mt-6 inline-block rounded-md bg-black border border-amber-500 px-6 py-3 font-semibold text-amber-400 hover:bg-neutral-800"
           >
             Get Started →
           </Link>
@@ -54,7 +54,7 @@ export default async function Home() {
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold text-center mb-10">Why Dev Dispatch?</h2>
+        <h2 className="text-2xl font-bold text-center mb-10">Why Anvil Scout?</h2>
         <div className="grid md:grid-cols-3 gap-6">
           {FEATURES.map((f) => (
             <div key={f.title} className="rounded-lg border border-black/10 dark:border-white/10 p-6">
@@ -67,12 +67,12 @@ export default async function Home() {
 
       <section id="pricing" className="max-w-md mx-auto">
         <h2 className="text-2xl font-bold text-center mb-8">Pricing</h2>
-        <div className="rounded-xl border-2 border-blue-500 p-8">
+        <div className="rounded-xl border-2 border-amber-500 p-8">
           <h3 className="font-semibold text-lg">Monthly</h3>
           <ul className="mt-4 space-y-2 text-sm">
             {PLAN_FEATURES.map((f) => (
               <li key={f} className="flex gap-2">
-                <span className="text-blue-600">✓</span>
+                <span className="text-amber-500">✓</span>
                 <span>{f}</span>
               </li>
             ))}
@@ -85,7 +85,7 @@ export default async function Home() {
             </div>
             <Link
               href={session ? "/account" : "/signup"}
-              className="rounded-md bg-orange-500 px-5 py-2 font-semibold text-white hover:bg-orange-600"
+              className="rounded-md bg-black border border-amber-500 px-5 py-2 font-semibold text-amber-400 hover:bg-neutral-800"
             >
               Purchase →
             </Link>

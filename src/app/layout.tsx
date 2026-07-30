@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dev Dispatch",
+  title: "Anvil Scout",
   description: "The only realtime job board for remote, U.S. software engineering roles.",
 };
 

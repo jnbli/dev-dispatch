@@ -1,4 +1,4 @@
-# Dev Dispatch
+# Anvil Scout
 
 Next.js app with Auth0 (login/signup) and Stripe (subscription billing) wired up.
 Job board backend is not built yet — this covers account creation and payment.

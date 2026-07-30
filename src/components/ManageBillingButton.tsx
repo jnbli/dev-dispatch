@@ -25,7 +25,7 @@ export function ManageBillingButton() {
       <button
         onClick={handleClick}
         disabled={loading}
-        className="rounded-md bg-blue-600 px-6 py-2 font-semibold text-white hover:bg-blue-700 disabled:opacity-60"
+        className="rounded-md bg-black border border-amber-500 px-6 py-2 font-semibold text-amber-400 hover:bg-neutral-800 disabled:opacity-60"
       >
         {loading ? "Loading…" : "Manage →"}
       </button>

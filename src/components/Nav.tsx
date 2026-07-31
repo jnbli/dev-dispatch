@@ -17,6 +17,7 @@ export async function Nav() {
             <Link href="/jobs">JOBS</Link>
             <Link href="/companies">COMPANIES</Link>
             <Link href="/applications">APPLICATIONS</Link>
+            <Link href="/autofill">AUTOFILL</Link>
             <Link href="/account">ACCOUNT</Link>
             <a href="/auth/logout" className="underline text-neutral-900 dark:text-neutral-100">
               LOGOUT

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "providers": {
+    "auth0": {
+      "name": "Auth0"
+    },
+    "vercel": {
+      "name": "Vercel"
+    }
+  },
+  "resources": {
+    "auth0-plan": {
+      "name": "auth0-plan",
+      "providerName": "Auth0",
+      "serviceId": "free"
+    },
+    "auth0-stack": {
+      "name": "auth0-stack",
+      "providerName": "Auth0",
+      "serviceId": "client"
+    },
+    "dev-dispatch-stack": {
+      "name": "dev-dispatch-stack",
+      "providerName": "Vercel",
+      "serviceId": "project"
+    },
+    "vercel-plan": {
+      "name": "vercel-plan",
+      "providerName": "Vercel",
+      "serviceId": "hobby"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "project": {
+    "initializedAt": "2026-07-30T20:29:17.484Z",
+    "merchantDisplayName": "Jonathanlilabs",
+    "merchantId": "acct_1Iv3uCLH8Hxw6Swo",
+    "projectId": "project_61V8OXFBIzg81mENQ16PA2Dy6GSQqydZf8TH0n0127ua",
+    "projectName": "stripe-projects-demo"
+  },
+  "providers": {
+    "auth0": {
+      "accountRequestId": "facctrq_61V8PcRmzuNFOV3Qu16PA2Dy6GSQqydZf8TH0n0120me",
+      "configuration": {
+        "locality": "us",
+        "naming_prefix": "jnbli"
+      },
+      "linkedAt": "2026-07-30T21:38:44.806Z",
+      "providerId": "prvdr_61UVctyxfLOj4FpVw5Bmi",
+      "providerName": "Auth0",
+      "redirectUrl": null,
+      "requestedAt": "2026-07-30T21:38:44.806Z",
+      "status": "complete"
+    },
+    "vercel": {
+      "accountRequestId": "facctrq_61V8QDYDNzjZHSCbg16PA2Dy6GSQqydZf8TH0n0129xI",
+      "configuration": {},
+      "linkedAt": "2026-07-30T22:17:06.796Z",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "redirectUrl": null,
+      "requestedAt": "2026-07-30T22:17:06.796Z",
+      "status": "complete"
+    }
+  },
+  "resources": {
+    "auth0-plan": {
+      "configuration": {},
+      "createdAt": "2026-07-31T00:14:08.808Z",
+      "lastRevealedAt": "2026-07-31T00:14:09.005Z",
+      "lastStatus": "complete",
+      "name": "auth0-plan",
+      "providerId": "prvdr_61UVctyxfLOj4FpVw5Bmi",
+      "providerName": "Auth0",
+      "resourceId": "fres_61V8S2nt5obzbeqEF16PA2Dy6GSQqydZf8TH0n0124wa",
+      "serviceId": "free"
+    },
+    "auth0-stack": {
+      "configuration": {
+        "name": "anvil-scout-stack"
+      },
+      "createdAt": "2026-07-31T00:14:20.840Z",
+      "lastRevealedAt": "2026-07-31T00:14:21.042Z",
+      "lastStatus": "complete",
+      "name": "auth0-stack",
+      "providerId": "prvdr_61UVctyxfLOj4FpVw5Bmi",
+      "providerName": "Auth0",
+      "resourceId": "fres_61V8S2zyOUsHUuBkB16PA2Dy6GSQqydZf8TH0n0129Uu",
+      "serviceId": "client"
+    },
+    "dev-dispatch-stack": {
+      "configuration": {
+        "name": "stripe-projects-demo"
+      },
+      "createdAt": "2026-07-31T00:11:56.985Z",
+      "lastRevealedAt": "2026-07-31T00:11:57.148Z",
+      "lastStatus": "complete",
+      "name": "dev-dispatch-stack",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61V8S0hV1UcBo1KiQ16PA2Dy6GSQqydZf8TH0n012FOq",
+      "serviceId": "project"
+    },
+    "vercel-plan": {
+      "configuration": {},
+      "createdAt": "2026-07-30T22:17:07.661Z",
+      "lastRevealedAt": "2026-07-30T22:17:07.816Z",
+      "lastStatus": "complete",
+      "name": "vercel-plan",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61V8QDboYxzcHO5is16PA2Dy6GSQqydZf8TH0n0128sq",
+      "serviceId": "hobby"
+    }
+  }
+}
